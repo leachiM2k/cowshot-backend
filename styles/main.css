@@ -1,0 +1,300 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	color: #4b4b4b;
+	background: #171717 url(../images/dark_texture_for_web.jpg);
+}
+a {
+	color:#d03401;
+	text-decoration:none;
+}
+p {
+	line-height:140%;	
+}
+h2 {
+	font-size:30px;
+	color:#d03401;
+	padding:0 0 10px 0;
+}
+h3 {
+	font-size:18px;
+	color:#d03401;
+	padding:0 0 10px 0;
+}
+h4 {
+	color:#ffffff;
+	font-size:18px;
+}
+.container { 
+	width: 960px;
+	margin: 0 auto;
+}
+.logoContainer {
+	float:left;
+}
+.logoContainer a {
+	background: url(../images/icon.gif) no-repeat center left;
+	padding-left: 45px;
+}
+header h1 {
+	padding:25px 0 0 0;
+	font-family: 'Abel', sans-serif;
+}
+header h1 a {
+	font-size: 42px;
+	color:#ffffff;
+	text-decoration:none;
+}
+header h1 a span {
+	font-size: 42px;
+	color:#d03401;
+	text-decoration:none;
+}
+header ul {
+	float:right;
+	padding:50px 0 0 0;
+}
+header ul li {
+	list-style:none;
+	display:inline;
+	padding:0 20px;
+}
+.welcomeContainer {
+	padding:30px 0;
+}
+.content2 {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	border:1px solid #101010;
+	padding:30px;
+	line-height:140%;	
+}
+.content2 .picImg {
+	float:right;
+	margin:0 0 20px 30px;	
+}
+.content2 .picContainer {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+	padding:10px;
+}
+.content2 img {
+	border:1px solid #101010;
+}
+button {
+	background: #aa2901; /* Old browsers */
+	background: -moz-linear-gradient(top, #aa2901 0%, #ce3402 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa2901), color-stop(100%,#ce3402)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #aa2901 0%,#ce3402 100%); /* W3C */	
+	text-transform:uppercase;
+	color: #fff;
+	border:0;
+	padding:10px 20px;
+	margin-top:20px;
+	cursor:pointer;
+	font-family: 'Arvo', serif;
+}
+.sidebar1 {
+	float: right; 
+	width: 370px;
+	padding:20px 0 20px 0;
+}
+.mainContent { 
+	margin: 0 415px 0 0;
+	padding:20px 0 20px 0;
+}
+.sidebar1 p {
+	width:370px;
+	padding-bottom:30px;
+}
+/*begin sidebar list*/
+.sidebar1 ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+.sidebarlist a {
+	display: block;
+	width: 360px;
+	color: #4b4b4b;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	border:1px solid #101010;
+    list-style: none outside none;
+    padding: 10px 0 10px 10px;
+	margin:0 0 1px 0;
+}
+.sidebarlist a:link, .sidebarlist a:visited {
+	color: #4b4b4b;
+	text-decoration: none;
+}
+.sidebarlist a:hover {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+	border:1px solid #101010;
+	color: #6a6a6a;
+	padding: 10px 0 10px 10px;
+}
+/*end sidebar list*/
+footer {
+	border-top:1px solid #171717;
+	background:#000000;
+} 
+footer p {
+	text-align:center;
+	padding:20px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*--------------------------------------------------------------------------------------------*/
+/********* begin MAIN NAV ********/
+/*--------------------------------------------------------------------------------------------*/
+.navcontainer ul {
+	padding: 20px 0;
+	margin: 0;
+	list-style-type: none;
+	color: #FFF;
+	width: 960px;
+	text-align: left;
+	box-shadow: 0px 6px 7px 0px #0e0e0e;
+}
+.navcontainer li { 
+	display: inline; 
+}
+.navcontainer li a {
+	text-decoration: none;
+	color: #4b4b4b;
+	padding: 20px 30px;
+	text-shadow: none;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:18px;
+}
+.navcontainer li a:hover {
+	color: #fff;
+}
+.navcontainer #active a {
+	color: #fff;
+}
+/*--------------------------------------------------------------------------------------------*/
+/********* end MAIN NAV ********/
+/*--------------------------------------------------------------------------------------------*/
+.image {
+	width:940px;
+	position:relative; 
+	z-index:1; 
+	background:#111; 
+	margin:20px 0 1px 0;
+	padding: 10px;
+	text-align: center;
+	background-image: url(../images/checks.jpg);
+}
+.image img.shot {
+	-webkit-box-shadow: 1px 1px 10px 0px #000;
+	box-shadow: 1px 1px 10px 0px #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+a.fullsizeLink {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 3px;
+	background: #171717;
+}
+ul.metadata {
+	opacity: 0;
+	background: #171717; 
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px;
+	list-style: none;
+	text-align: left;
+}
+ul.metadata:hover {
+	opacity: 1;
+}
+.highlightedBackground {
+	background: #aa2901; /* Old browsers */
+	background: -moz-linear-gradient(top, #aa2901 0%, #ce3402 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa2901), color-stop(100%,#ce3402)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #aa2901 0%,#ce3402 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #aa2901 0%,#ce3402 100%); /* W3C */
+}
+
+
+
+
+
+
+
+
+
+.selectionMode,
+.selectionMode img
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	-webkit-user-drag: none;
+}
+
+.box {
+	position: absolute;
+	border: 1px dashed red;
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	z-index: 2000;
+	cursor: move;
+}
+
+.boxX
+{
+	position: absolute;
+	background: #fff;
+	height: 15px;
+	width: 15px;
+	right: 0px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: -7px;
+	margin-right: -7px;
+	cursor: pointer;
+	border: 1px solid #888;
+	opacity: 0;
+}
+
+.boxX:hover
+{
+	opacity: 1;
+}
+
+#pictureArea
+{
+	position: relative;
+	display: inline-block;
+}
